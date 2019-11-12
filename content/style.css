@@ -1,0 +1,139 @@
+.img-responsive {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+.col-md-4{
+ position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.btn{
+    line-height: 30px;
+  }
+  .btn-sm, .btn-group-sm > .btn {
+  padding: 5px 20px;
+  font-size: 12px;
+  line-height: 1.5;
+  border-radius: 3px;
+}
+#fh5co-services{
+  padding: 7em 0;
+  clear: both;
+}
+@media screen and (max-width: 768px) {
+  #fh5co-services{
+    padding: 3em 0;
+  }
+}
+.services {
+  padding: 25px;
+  margin-top: -10em;
+  background: #fff;
+  -webkit-box-shadow: 0px 10px 23px -10px rgba(0, 0, 0, 0.43);
+  -moz-box-shadow: 0px 10px 23px -10px rgba(0, 0, 0, 0.43);
+  -ms-box-shadow: 0px 10px 23px -10px rgba(0, 0, 0, 0.43);
+  -o-box-shadow: 0px 10px 23px -10px rgba(0, 0, 0, 0.43);
+  box-shadow: 0px 10px 23px -10px rgba(0, 0, 0, 0.43);
+}
+@media screen and (max-width: 992px) {
+  .services {
+    margin-top: 0;
+    margin-bottom: 10px;
+  }
+}
+@media screen and (max-width: 992px) {
+  .services {
+    margin-top: 0;
+    margin-bottom: 10px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .services {
+    margin-top: 0;
+    margin-bottom: 20px;
+  }
+}
+.services span {
+  width: 100%;
+  display: block;
+  margin-bottom: 30px;
+}
+.services span img {
+  width: 60px;
+  margin: 0 auto;
+}
+.services h3 {
+  text-transform: uppercase;
+  font-size: 16px;
+  letter-spacing: 2px;
+  font-weight: 500;
+  position: relative;
+}
+.services h3:after {
+  position: absolute;
+  bottom: -10px;
+  left: 0;
+  right: 0;
+  width: 40px;
+  height: 2px;
+  margin: 0 auto;
+  background: #F85A16;
+  content: '';
+}
+
+
+style
+.js .animate-box {
+  opacity: 0;
+}
+.btn:hover, .btn:active, .btn:focus {
+  box-shadow: none !important;
+  outline: none !important;
+}
+
+.btn-primary {
+  background: #F85A16;
+  color: #fff;
+  border: 2px solid #F85A16;
+}
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active {
+  background: #f96c2f !important;
+  border-color: #f96c2f !important;
+}
+.btn-primary.btn-outline {
+  background: transparent;
+  color: #F85A16;
+  border: 1px solid #F85A16;
+}
+.btn-primary.btn-outline:hover, .btn-primary.btn-outline:focus, .btn-primary.btn-outline:active {
+  background: #F85A16;
+  color: #fff;
+}
+\.btn {
+  margin-right: 4px;
+  margin-bottom: 4px;
+  font-family: "Work Sans", Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  border-radius: 30px;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+  padding: 8px 20px;
+}
+.btn-outline {
+  background: none;
+  border: 1px solid gray;
+  font-size: 16px;
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}
+.btn-outline:hover, .btn-outline:focus, .btn-outline:active {
+  box-shadow: none;
+}
