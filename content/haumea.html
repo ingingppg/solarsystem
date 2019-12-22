@@ -1,0 +1,139 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Kanit&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style-content.css">
+    <title>Haumea</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark w-100 fixed-top">
+        <a class="navbar-brand" href="index.html">
+            <img src="icon.svg" width="30" height="30" class="d-inline-block align-top" alt="">
+            Solar System</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav pull-right ml-auto">
+                <li class="nav-item dropdown">
+                    <a class="nav-link pull-left dropdown-toggle" href="#" id="navbarDropdownMenuLink"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        ระบบสุริยะ
+                    </a>
+                    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="index.html#origin">กำเนิดระบบสุริยะ</a>
+                        <a class="dropdown-item" href="sun.html">ดวงอาทิตย์</a>
+                        <a class="dropdown-item" href="KuiperBelt.html">แถบไคเปอร์</a>
+                        <a class="dropdown-item" href="scattereddisc.html">แถบจานกระจาย</a>
+                        <a class="dropdown-item" href="Heliosphere.html">ขอบเขตเฮลิโอพอส</a>
+                        <a class="dropdown-item" href="OortCloud.html">ย่านของเมฆออร์ต</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown active">
+                    <a class="nav-link pull-left dropdown-toggle" href="#" id="navbarDropdownMenuLink"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="sr-only">(current)</span>
+                        ดาวเคราะห์
+                    </a>
+                    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="definition.html">นิยามดาวเคราะห์</a>
+                        <div class="dropdown-divider"></div>
+                        <h4 class="dropdown-header"><i id="drophead">ดาวเคราะห์</i></h4>
+                        <a class="dropdown-item" href="mercury.html">พุธ</a>
+                        <a class="dropdown-item" href="venus.html">ศุกร์</a>
+                        <a class="dropdown-item" href="earth.html">โลก</a>
+                        <a class="dropdown-item" href="mars.html">อังคาร</a>
+                        <a class="dropdown-item" href="jupiter.html">พฤหัสบดี</a>
+                        <a class="dropdown-item" href="Saturn.html">เสาร์</a>
+                        <a class="dropdown-item" href="uranus.html">ยูเรนัส</a>
+                        <a class="dropdown-item" href="neptune.html">เนปจูน</a>
+                        <div class="dropdown-divider"></div>
+                        <h4 class="dropdown-header"><i id="drophead">ดาวเคราะห์แคระ</i></h4>
+                        <a class="dropdown-item" href="ceres.html">เซเรส</a>
+                        <a class="dropdown-item" href="pluto.html">พลูโต</a>
+                        <a class="dropdown-item" href="haumea.html">เฮาเมอา</a>
+                        <a class="dropdown-item" href="makemake.html">มาคีมาคี</a>
+                        <a class="dropdown-item" href="eris.html">อิรีส</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link pull-left dropdown-toggle" href="#" id="navbarDropdownMenuLink"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        วัตถุอื่นๆ
+                    </a>
+                    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="Asteroid.html">ดาวเคราะห์น้อย</a>
+                        <a class="dropdown-item" href="comet.html">ดาวหาง</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle pull-left" href="#" id="navbarDropdownMenuLink"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        MORE
+                    </a>
+                    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
+                        <ul class="dropdown pull-left">
+                            <li><a class="dropdown-item" href="https://solarsystem.nasa.gov/"
+                                    target="_blank">แหล่งเรียนรู้เพิ่มเติม</a>
+                            </li>
+                            <li><a class="dropdown-item" href="https://images.nasa.gov/" target="_blank">NASA Image and
+                                    Video
+                                    Library</a></li>
+                            <li><a class="dropdown-item" href="about.html">ผู้จัดทำ</a></li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="content">
+        <div class="head">
+            <h1>ดาวเคราะห์แคระเฮาเมอา</h1>
+            <hr class="hrhead">
+            <h3>Haumea</h3>
+        </div>
+
+        <div class="container">
+            <div class="pic01">
+                <img src="12haumea.png" alt="Haumea" class="pic01">
+            </div><br>
+            <p id="content01"></p>
+        </div>
+    </div>
+
+    <div class="footer navbar-dark bg-dark">
+        <a class="navbar-brand" href="index.html">
+            <img src="icon.svg" width="30" height="30" class="d-inline-block align-top" alt="">
+            Solar System
+        </a>
+    </div>
+</body>
+
+<script>
+
+    let requestURL = "content.json";
+    let request = new XMLHttpRequest();
+    request.onreadystatechange = function () {
+        if (request.readyState == 4 && request.status == 200) {
+            var myJSON = JSON.parse(request.responseText);
+            myFunction(myJSON);
+        }
+    };
+    request.open("GET", requestURL, true);
+    request.send();
+
+    function myFunction(myObj) {
+        document.getElementById("content01").innerHTML = myObj.haumea;
+    }
+</script>
+
+</html>

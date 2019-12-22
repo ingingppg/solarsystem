@@ -1,0 +1,174 @@
+body {
+    font-family: 'Kanit', sans-serif;
+    background-image: url(../img/main/bg.jpg);
+    position: relative;
+    margin: 0;
+    padding-bottom: 4rem;
+}
+
+.nav-link {
+    margin: 0px 10px;
+}
+
+nav {
+    font-size: 16px;
+    position: fixed;
+}
+
+.dropdown-menu, .dropdown-item {
+    background-color: rgb(54, 53, 53);
+    color: white;
+    border-radius: 10px;
+}
+
+.dropdown-header {
+    color: white;
+}
+
+.footer {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: .5rem;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+}
+
+#image-planet {
+    width: 100%;
+}
+
+.container-fluid {
+    text-align: center;
+    width: 100%;
+    font-size: 16px;
+}
+
+.mr-3:hover,.mr-3:active,.mr-3:focus{
+    box-shadow: none !important;
+    outline: none !important;
+    
+    -ms-transform: scale(1, 1);
+    -webkit-transform: scale(1, 1);
+    transform: scale(1.5, 1.5);
+}
+
+a {
+    color: white;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {
+        padding-top: 15px;
+    }
+
+    .sidenav a {
+        font-size: 16px;
+    }
+
+    .nav {
+        width: 50%;
+        font-size: 16px;
+    }
+
+    .container {
+        width: 50%;
+    }
+
+    img {
+        width: 50%;
+    }
+
+    .media {
+        width: 100%;
+    }
+
+    .navbar {
+        font-size: 16px;
+    }
+
+}
+
+
+#carousel {
+    width: 80%;
+    height: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 86px;
+    margin-bottom: 2.5%;
+}
+
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+}
+
+#img-slide {
+    width: 100%;
+    display: block;
+    height: 70%;
+}
+
+#origin {
+    background-color: #667682;
+    text-align: justify;
+    text-justify: inter-word;
+    font-size: 1.1em;
+    width: 100%;
+    padding: 5%;
+    background: #B8CFD9 url(../img/main/bgcontent.jpg) no-repeat;
+    background-size: 100% auto;
+}
+
+#content-head > h1 {
+    font-size: 2.7em;
+    text-align: center;
+    background-color: #B8CFD9;
+    border-radius: 50px;
+    padding: 15px;
+    width: 450px;
+    margin-left: 7%;
+    margin-bottom: -1%;
+}
+
+#content {
+    background-color: white;
+    opacity: 0.8;
+    border-radius: 50px;
+    margin: 30pt;
+    padding: 50px;
+    margin-bottom: -1%;
+}
+
+.hrhead {
+    width: 100px;
+    border-top: 3px solid white;
+    margin-top: 5px;
+    opacity: 0.6;
+}
+
+#carouseltext {
+    font-size: 1.5em;
+}
+
+.image-sun:hover, .image-sun:active, .image-sun:focus{
+  -ms-transform: scale(1, 1);
+  -webkit-transform: scale(1, 1);
+  transform: scale(1.25, 1.25);
+}
+
+a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+    color: white;
+}

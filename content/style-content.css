@@ -1,0 +1,80 @@
+body {
+    font-family: 'Kanit', sans-serif;
+    background-image: url(bg.jpg);
+    position: relative;
+    margin: 0;
+    padding-bottom: 4rem;
+}
+
+.content {
+    margin: 30pt;
+    padding: 80px;
+    border-radius: 50px;
+    background-color: #929192;
+    height: auto;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 70px;
+}
+
+.head {
+    text-align: center;
+}
+
+.hrhead {
+    width: 100px;
+    border-top: 1px solid;
+    margin-top: 5px;
+}
+
+.container {
+    margin-top: 40pt;
+    font-size: 1.1em;
+}
+
+.pic01 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 350px;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+p {
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.nav-link {
+    margin: 0px 10px;
+}
+
+nav {
+    font-size: 16px;
+    position: fixed;
+}
+
+.dropdown-menu,.dropdown-item {
+    background-color: rgb(54, 53, 53);
+    color: white;
+    border-radius: 10px;
+}
+
+.dropdown-header {
+    color: white;
+}
+
+.footer {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: .5rem;
+    text-align: center;
+}

@@ -1,113 +1,211 @@
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <link rel="stylesheet" href="stylemain.css">
-        <title>Document</title>
-        <link rel="stylesheet"
-            href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-        <script
-            src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-        <script
-            src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-        <script
-            src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-        <link rel="stylesheet" href="/stylemain.css">
-        <script
-        src="nav.js"></script>
 
-        <link href="https://fonts.googleapis.com/css?family=Work+Sans:300,400,500,700,800" rel="stylesheet">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Kanit&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style-content.css">
+    <title>The Sun</title>
+</head>
 
-	<!-- Animate.css -->
-	<link rel="stylesheet" href="css/animate.css">
-	<!-- Icomoon Icon Fonts-->
+<body>
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark w-100 fixed-top">
+        <a class="navbar-brand" href="index.html">
+            <img src="icon.svg" width="30" height="30" class="d-inline-block align-top" alt="">
+            Solar System</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav pull-right ml-auto">
+                <li class="nav-item dropdown active">
+                    <a class="nav-link pull-left dropdown-toggle" href="#" id="navbarDropdownMenuLink"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="sr-only">(current)</span>
+                        ระบบสุริยะ
+                    </a>
+                    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="index.html#origin">กำเนิดระบบสุริยะ</a>
+                        <a class="dropdown-item" href="sun.html">ดวงอาทิตย์</a>
+                        <a class="dropdown-item" href="KuiperBelt.html">แถบไคเปอร์</a>
+                        <a class="dropdown-item" href="scattereddisc.html">แถบจานกระจาย</a>
+                        <a class="dropdown-item" href="Heliosphere.html">ขอบเขตเฮลิโอพอส</a>
+                        <a class="dropdown-item" href="OortCloud.html">ย่านของเมฆออร์ต</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link pull-left dropdown-toggle" href="#" id="navbarDropdownMenuLink"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        ดาวเคราะห์
+                    </a>
+                    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="definition.html">นิยามดาวเคราะห์</a>
+                        <div class="dropdown-divider"></div>
+                        <h4 class="dropdown-header"><i id="drophead">ดาวเคราะห์</i></h4>
+                        <a class="dropdown-item" href="mercury.html">พุธ</a>
+                        <a class="dropdown-item" href="venus.html">ศุกร์</a>
+                        <a class="dropdown-item" href="earth.html">โลก</a>
+                        <a class="dropdown-item" href="mars.html">อังคาร</a>
+                        <a class="dropdown-item" href="jupiter.html">พฤหัสบดี</a>
+                        <a class="dropdown-item" href="Saturn.html">เสาร์</a>
+                        <a class="dropdown-item" href="uranus.html">ยูเรนัส</a>
+                        <a class="dropdown-item" href="neptune.html">เนปจูน</a>
+                        <div class="dropdown-divider"></div>
+                        <h4 class="dropdown-header"><i id="drophead">ดาวเคราะห์แคระ</i></h4>
+                        <a class="dropdown-item" href="ceres.html">เซเรส</a>
+                        <a class="dropdown-item" href="pluto.html">พลูโต</a>
+                        <a class="dropdown-item" href="haumea.html">เฮาเมอา</a>
+                        <a class="dropdown-item" href="makemake.html">มาคีมาคี</a>
+                        <a class="dropdown-item" href="eris.html">อิรีส</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link pull-left dropdown-toggle" href="#" id="navbarDropdownMenuLink"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        วัตถุอื่นๆ
+                    </a>
+                    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="Asteroid.html">ดาวเคราะห์น้อย</a>
+                        <a class="dropdown-item" href="comet.html">ดาวหาง</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle pull-left" href="#" id="navbarDropdownMenuLink"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        MORE
+                    </a>
+                    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
+                        <ul class="dropdown pull-left">
+                            <li><a class="dropdown-item" href="https://solarsystem.nasa.gov/"
+                                    target="_blank">แหล่งเรียนรู้เพิ่มเติม</a>
+                            </li>
+                            <li><a class="dropdown-item" href="https://images.nasa.gov/" target="_blank">NASA Image and
+                                    Video
+                                    Library</a></li>
+                            <li><a class="dropdown-item" href="about.html">ผู้จัดทำ</a></li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </nav>
 
-	<!-- Bootstrap  -->
-	<link rel="stylesheet" href="css/bootstrap.css">
-        	<!-- Theme style  -->
-	<link rel="stylesheet" href="css/style.css">
-
-	<!-- Modernizr JS -->
-	<script src="js/modernizr-2.6.2.min.js"></script>
-	<!-- FOR IE9 below -->
-	<!--[if lt IE 9]>
-	<script src="js/respond.min.js"></script>
-	<![endif]-->
-    </head>
-    <style>
-.container{
-    padding-top: 50px;
-    z-index: -1000;
-    height: 15%;
-}
-        img{
-            width: 100%;
-            margin: 0px 0px;
-        }
-        .media{
-        position:absolute;
-        margin-top: 80px;
-
-        height: 1000%;
-        width: 99%;
-        }
-        .container-fluid{
-            height: 1000%;
-        }
- nav{
-        height: 8%;
-        font-size: 30px;
-        position: fixed;
-    }
-    </style>
-    <body background="/bg.jpg">
-
-<div class="container-fluid h-100">
-        <div class="media" id="container-media" style="background: rgb(73, 73, 73);" >
-            <a href="#">
-                <img src="/image/1mercury.png" class="align-self-center mt-10 "
-                    alt="..."></a>
-            <div class="media-body float-left text-justify mt-50 w-5 mr-2" >
-                <div class="box ">
-                    <h1 style="margin: 0px 20px;">ดวงอาทิตย์</h1>
-                    <br>
-                    <hr style="float:left;width:30%;height: 1px; background: white; border-radius: 100px;">
-                    <br>
-                    <br>
-                    <h2 style="margin: 0px 30px;">The Sun</h2>
-            </div>
-                <h5 class="mt-0"></h5>
-                <p>&emsp;&emsp;&emsp;&emsp; ดวงอาทิตย์เป็นดาวฤกษ์ที่อยู่ใกล้โลกมากที่สุดและเป็นศูนย์กลางของระบบสุริยะ โดยมีระยะห่างจากโลกประมาณ 149.60 ล้านกิโลเมตร หรือระยะที่เรารู้จักกันในทางดาราศาสตร์ว่า 1 หน่วยดาราศาสตร์ พลังงานความร้อนจากดวงอาทิตย์เกื้อกูลต่อสิ่งมีชีวิตบนโลก และความสัมพันธ์ระหว่างโลกกับดวงอาทิตย์ ยังทำให้เกิดฤดูกาล กระแสน้ำในมหาสมุทร ตลอดจนการเปลี่ยนแปลงของสภาพภูมิอากาศ ดวงอาทิตย์มีมวลมหาศาลเมื่อเทียบกับโลก (มากกว่าโลกถึง 333,400 เท่า) อิทธิพลแรงโน้มถ่วงที่ดึงดูดฝุ่นเข้าด้วยกัน ผลที่ได้ก็คือ แรงดันและอุณหภูมิที่เพิ่มสูงขึ้นที่แกนกลางประมาณ 15 ล้านองศาเซลเซียส เพียงพอที่จะเกิดปฏิกิริยานิวเครียร์ฟิวชันที่แกนกลาง (Nuclear Fusion) ซึ่งหลอมไฮโดรเจนให้กลายเป็นฮีเลียมและปลดปล่อยพลังงานออกมาอย่างมหาศาล แผ่พลังงานความร้อนออกจากแกน จากนั้นเข้าสู่กระบวนการพาความร้อนไปสู่พื้นผิวของดวงอาทิตย์ที่เรียกว่า ชั้นโฟโตสเฟียร์ มีอุณหภูมิประมาณ 5,500 องศาเซลเซียส เป็นต้นกำเนิดของแสงอาทิตย์ที่เราเห็นบนโลก ในชั้นนี้ยังมีปรากฏการณ์อื่น ๆ เช่น การพุ่งของเปลวสุริยะ (Prominences) การลุกจ้า (Flare) และการเกิดจุดบนดวงอาทิตย์ (Sunspots) ซึ่งสัมพันธ์กับการเปลี่ยนแปลงสนามแม่เหล็กบนดวงอาทิตย์ ถัดไปเป็นชั้นโครโมสเฟียร์ มีอุณหภูมิประมาณ 10,000 องศาเซลเซียส บรรยากาศชั้นนอกสุดของดวงอาทิตย์แผ่ออกไปไกลหลายล้านกิโลเมตร เรียกว่า โคโรนา มีอุณหภูมิสูงถึง 2 ล้านองศาเซลเซียส</p>
-                <h5 class="mt-0"></h5>
-                <p>&emsp;&emsp;&emsp;&emsp; ดวงอาทิตย์เป็นดาวฤกษ์ที่อยู่ใกล้โลกมากที่สุดและเป็นศูนย์กลางของระบบสุริยะ โดยมีระยะห่างจากโลกประมาณ 149.60 ล้านกิโลเมตร หรือระยะที่เรารู้จักกันในทางดาราศาสตร์ว่า 1 หน่วยดาราศาสตร์ พลังงานความร้อนจากดวงอาทิตย์เกื้อกูลต่อสิ่งมีชีวิตบนโลก และความสัมพันธ์ระหว่างโลกกับดวงอาทิตย์ ยังทำให้เกิดฤดูกาล กระแสน้ำในมหาสมุทร ตลอดจนการเปลี่ยนแปลงของสภาพภูมิอากาศ ดวงอาทิตย์มีมวลมหาศาลเมื่อเทียบกับโลก (มากกว่าโลกถึง 333,400 เท่า) อิทธิพลแรงโน้มถ่วงที่ดึงดูดฝุ่นเข้าด้วยกัน ผลที่ได้ก็คือ แรงดันและอุณหภูมิที่เพิ่มสูงขึ้นที่แกนกลางประมาณ 15 ล้านองศาเซลเซียส เพียงพอที่จะเกิดปฏิกิริยานิวเครียร์ฟิวชันที่แกนกลาง (Nuclear Fusion) ซึ่งหลอมไฮโดรเจนให้กลายเป็นฮีเลียมและปลดปล่อยพลังงานออกมาอย่างมหาศาล แผ่พลังงานความร้อนออกจากแกน จากนั้นเข้าสู่กระบวนการพาความร้อนไปสู่พื้นผิวของดวงอาทิตย์ที่เรียกว่า ชั้นโฟโตสเฟียร์ มีอุณหภูมิประมาณ 5,500 องศาเซลเซียส เป็นต้นกำเนิดของแสงอาทิตย์ที่เราเห็นบนโลก ในชั้นนี้ยังมีปรากฏการณ์อื่น ๆ เช่น การพุ่งของเปลวสุริยะ (Prominences) การลุกจ้า (Flare) และการเกิดจุดบนดวงอาทิตย์ (Sunspots) ซึ่งสัมพันธ์กับการเปลี่ยนแปลงสนามแม่เหล็กบนดวงอาทิตย์ ถัดไปเป็นชั้นโครโมสเฟียร์ มีอุณหภูมิประมาณ 10,000 องศาเซลเซียส บรรยากาศชั้นนอกสุดของดวงอาทิตย์แผ่ออกไปไกลหลายล้านกิโลเมตร เรียกว่า โคโรนา มีอุณหภูมิสูงถึง 2 ล้านองศาเซลเซียส</p>
-
-
+    <div class="content">
+        <div class="head">
+            <h1>ดวงอาทิตย์</h1>
+            <hr class="hrhead">
+            <h3>The Sun</h3>
         </div>
 
+        <div class="container">
+            <div class="pic01">
+                <img src="0sun.png" alt="The Sun" class="pic01 ">
+            </div>
+            <p id="content01"></p><br>
+            <table class="table table-striped table-light" id="table" style="text-align: center;">
+                <tr>
+                    <th colspan="2">ข้อมูลดวงอาทิตย์</th>
+                </tr>
+                <tr>
+                    <td>ชนิดสเปกตรัม</td>
+                    <td>G2V</td>
+                </tr>
+                <tr>
+                    <td>อายุ</td>
+                    <td>4,600 ล้านปี</td>
+                </tr>
+                <tr>
+                    <td>อัตราเร็วในการหมุนรอบตัวเองที่เส้นศูนย์สูตร</td>
+                    <td>26.8 วัน</td>
+                </tr>
+                <tr>
+                    <td>อัตราเร็วในการหมุนรอบตัวเองที่ขั้ว</td>
+                    <td>36 วัน</td>
+                </tr>
+                <tr>
+                    <td>รัศมี</td>
+                    <td>695,500 กิโลเมตร</td>
+                </tr>
+                <tr>
+                    <td>มวล</td>
+                    <td>1.989 x 10<sup>30</sup> กิโลกรัม</td>
+                </tr>
+                <tr>
+                    <td>ความหนาแน่น</td>
+                    <td>1.409 กรัมต่อลูกบาศก์เซนติเมตร</td>
+                </tr>
+                <tr>
+                    <td>องค์ประกอบ</td>
+                    <td>ไฮโดรเจน 92.1% ฮีเลียม 7.8% และธาตุอื่น ๆ อีก 0.1%</td>
+                </tr>
+                <tr>
+                    <td>อุณหภูมิพื้นผิว (โฟโตสเฟียร์)</td>
+                    <td>5,500 องศาเซลเซียส</td>
+                </tr>
+            </table><br>
+            <h4>โครงสร้างของดวงอาทิตย์</h4>
+            <img src="structure_of_the sun.png" alt="structure of the sun"><br>
+            <p id="structure"></p><br>
+            <h4>บรรยากาศของดวงอาทิตย์</h4>
+            <img src="atmosphere of the sun.jpg" alt="atmosphere of the sun"><br>
+            <p id="atmosphere"></p><br>
+            <h4>สนามแม่เหล็กของดวงอาทิตย์ (Magnetic Fields of the Sun)</h4>
+            <img src="Magnetic Fields of the Sun.jpg" alt="Magnetic Fields of the Sun"><br>
+            <p id="MagneticFields"></p><br>
+            <h4>การลุกจ้าบนดวงอาทิตย์ (Solar Flare)</h4>
+            <img src="solsticeflare.jpg" alt="Solar Flare"><br>
+            <p id="SolarFlare"></p><br>
+            <h4>จุดบนดวงอาทิตย์ (Sunspot)</h4>
+            <img src="Sunspot.jpg" alt="Sunspot"><br>
+            <p id="Sunspot"></p><br>
+            <h4>การปลดปล่อยมวลของดวงอาทิตย์ (Coronal Mass Ejection : CME)</h4>
+            <img src="Coronal Mass Ejection.gif" alt="Coronal Mass Ejection"><br>
+            <p id="CME"></p><br>
+            <h4>ดวงอาทิตย์ในช่วงความยาวคลื่นที่มองไม่เห็น</h4>
+            <img src="wave range of the Sun.gif" alt="Wave range"><br>
+            <p id="unseenwavelength"></p><br>
+            <h4>วัฏจักรสุริยะ (Solar Cycle)</h4>
+            <img src="Solar Cycle.jpg" alt="Solar Cycle"><br>
+            <p id="SolarCycle"></p>
+        </div>
     </div>
+    <div class="footer navbar-dark bg-dark">
+        <a class="navbar-brand" href="index.html">
+            <img src="icon.svg" width="30" height="30" class="d-inline-block align-top" alt="">
+            Solar System
+        </a>
+    </div>
+</body>
 
-</div>
+<script>
 
-    <!-- jQuery -->
-	<script src="js/jquery.min.js"></script>
-	<!-- jQuery Easing -->
-	<script src="js/jquery.easing.1.3.js"></script>
-	<!-- Bootstrap -->
-	<script
-	src="js/bootstrap.min.js">
-	</script>
-	<!-- Waypoints -->
-	<script src="js/jquery.waypoints.min.js"></script>
-	<!-- Stellar Parallax -->
-	<script src="js/jquery.stellar.min.js"></script>
+    let requestURL = "content.json";
+    let request = new XMLHttpRequest();
+    request.onreadystatechange = function () {
+        if (request.readyState == 4 && request.status == 200) {
+            var myJSON = JSON.parse(request.responseText);
+            myFunction(myJSON);
+        }
+    };
+    request.open("GET", requestURL, true);
+    request.send();
 
-	<!-- countTo -->
-	<script src="js/jquery.countTo.js"></script>
-	<!-- Main -->
-	<script src="js/main.js"></script>
-
-
-    </body>
+    function myFunction(myObj) {
+        document.getElementById("content01").innerHTML = myObj.Sun.Sun;
+        document.getElementById("structure").innerHTML = myObj.Sun.structure;
+        document.getElementById("atmosphere").innerHTML = myObj.Sun.atmosphere;
+        document.getElementById("MagneticFields").innerHTML = myObj.Sun.MagneticFields;
+        document.getElementById("SolarFlare").innerHTML = myObj.Sun.SolarFlare;
+        document.getElementById("Sunspot").innerHTML = myObj.Sun.Sunspot;
+        document.getElementById("CME").innerHTML = myObj.Sun.CME;
+        document.getElementById("unseenwavelength").innerHTML = myObj.Sun.unseenwavelength;
+        document.getElementById("SolarCycle").innerHTML = myObj.Sun.SolarCycle;
+    }
+</script>
 
 </html>
