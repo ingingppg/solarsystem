@@ -1,6 +1,6 @@
 body {
     font-family: 'Kanit', sans-serif;
-    background-image: url(../img/main/bg.jpg);
+    background-image: url(img/main/bg.jpg);
     position: relative;
     margin: 0;
     padding-bottom: 4rem;
@@ -122,7 +122,7 @@ a {
     font-size: 1.1em;
     width: 100%;
     padding: 5%;
-    background: #B8CFD9 url(../img/main/bgcontent.jpg) no-repeat;
+    background: #B8CFD9 url(img/main/bgcontent.jpg) no-repeat;
     background-size: 100% auto;
 }
 
