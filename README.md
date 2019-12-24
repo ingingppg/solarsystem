@@ -1,6 +1,6 @@
 # Solar System
 This project is a part of the subject Web Technology (06026109), Faculty of Information Technology, King Mongkut's Institute of Technology Ladkrabang (KMITL).
-Check our Website here  :point_right:  [![forthebadge](https://forthebadge.com/images/badges/check-it-out.svg)](https://ingingppg.github.io/solarsystem/)
+<br>[![forthebadge](https://forthebadge.com/images/badges/check-it-out.svg)](https://ingingppg.github.io/solarsystem/)
 
 
 ## Objectives :dart:
