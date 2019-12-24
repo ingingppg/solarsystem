@@ -1,6 +1,6 @@
 body {
     font-family: 'Kanit', sans-serif;
-    background-image: url(../solarsystem/img/main/bg.jpg);
+    background-image: url(/solarsystem/img/main/bg.jpg);
     position: relative;
     margin: 0;
     padding-bottom: 4rem;
